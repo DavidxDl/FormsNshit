@@ -104,7 +104,8 @@ label{
 }
 button{
     background-color: #596D48;
-    margin: 20px 40px;
+    margin-left: 40px;
+    margin-top: 20px;
     color: white;
     padding: 10px 30px;
     border-radius: 8px;
@@ -126,4 +127,12 @@ input:focus{
     border: 1px solid red;
 }
     
-input:invalid
+.login{
+    margin-left: 40px;
+}
+.login a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+}
